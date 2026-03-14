@@ -26,7 +26,7 @@ pip install robustbench
 
 A környezet neve lehet tetszőleges, nem muszáj "ramp"-nek hívni, de akkor az .sh scriptekben ne felejtsük el átírni a környezet nevét (és esetleg helyét).
 
-Ezen felül a tanítás és tesztelés futtatásához is nagyon erősen javasolt a conda környezetben a megfelelő torch és torchvision verzió feltelepítése ahhoz, hogy kihasználjuk a videókártyák gyorsítását. Az, hogy melyik verzióra lehet szüksége a felhasználónak
+Ezen felül a tanítás és tesztelés futtatásához is nagyon erősen javasolt a futtatókörnyezetben a megfelelő torch és torchvision verzió feltelepítése ahhoz, hogy kihasználjuk a videókártyák gyorsítását. Az, hogy melyik verzióra lehet szüksége a felhasználónak
 nagyban függ attól, hogy milyen videókártyája van, de ha tudjuk a videókártya CUDA verzióját, akkor annak megfelelően lehet választani a következő oldal alapján: https://pytorch.org/get-started/previous-versions/.
 
 (A CUDA verziók lefele kompatibilisek, felfele nem.)
