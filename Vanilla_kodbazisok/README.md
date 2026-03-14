@@ -28,3 +28,5 @@ Ez a fajta tanítóalgoritmus egy nem-konvenciós támadás ellen (L0 norma) ál
 Az eredeti kód github repository_ja: https://github.com/locuslab/robust_union/tree/master
 
 Ez egy régebbi módszer a többihez képest, de ez a fajta módszer is olyan módellt állít elő, amely többféle perturbációval szemben is robosztus. A megfelelő kapcsoló használatával (-model 1-7) többféle típusú modell is előállítható. Ennél is hagytam futtatási mintát a tanitas.sh és tanitas_cifar100.sh fájlokban.
+
+Itt szeretném megjegyezni, hogy a 7-es fajta modell előállítása (RANDOM modell) nincsen benne az eredeti kódban, az általam lett implementálva. A működésének lényege azonban az általuk definiált háromfajta támadás közötti véletlenszerű választás tanító-batchenként (hogy alteráljon a támadások között a tanulás során), ez újfajta módszert nem vezet be a kódjukba, csak a már létező, meglévő módszereket használja másféleképpen.
