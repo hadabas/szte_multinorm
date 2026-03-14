@@ -13,3 +13,5 @@ Ez a segédkódbázis három részre bontható, amelyet a három feltöltött ma
 - ***Kiertekelo_script***: Ebben a mappában található az összes <ins>kiértékelésre</ins> használt kód és script. Ha a hálók teljesítményét akarjuk lemérni, itt kell keresni.
 
 - ***Vanilla_kodbazisok***: Ebben a mappában található az összes <ins>tanításra</ins> használt kód és script. A tanításokat minden esetben az ebben a mappában lévő scriptekkel kell elindítani.
+
+Ahhoz, hogy a kód futtatható legyen (akár betanításról, akár kiértékelésről van szó) a felhasználónak rendelkeznie kell egy python 3.11-es környezettel, és telepítenie kell a robustbench csomagot a python package managerrel (pip). Előfordulhat, hogy egy specifikus tanítási módszerhez szükségesek további csomagok, de ezek mindegyike telepíthető a pip install <csomagnév> paranccsal.
