@@ -14,4 +14,14 @@ Ez a segédkódbázis három részre bontható, amelyet a három feltöltött ma
 
 - ***Vanilla_kodbazisok***: Ebben a mappában található az összes <ins>tanításra</ins> használt kód és script. A tanításokat minden esetben az ebben a mappában lévő scriptekkel kell elindítani.
 
-Ahhoz, hogy a kód futtatható legyen (akár betanításról, akár kiértékelésről van szó) a felhasználónak rendelkeznie kell egy python 3.11-es környezettel, és telepítenie kell a robustbench csomagot a python package managerrel (pip). Előfordulhat, hogy egy specifikus tanítási módszerhez szükségesek további csomagok, de ezek mindegyike telepíthető a pip install <csomagnév> paranccsal.
+Ahhoz, hogy a kód futtatható legyen (akár betanításról, akár kiértékelésről van szó) a felhasználónak rendelkeznie kell egy python 3.11-es környezettel, és telepítenie kell a **robustbench** nevű csomagot a python package managerrel (pip). Előfordulhat, hogy egy specifikus tanítási módszerhez szükségesek további csomagok, de ezek mindegyike telepíthető a pip install <csomagnév> paranccsal.
+
+Ha a Szegedi Tudományegyetem clusterén szeretnénk futtatni a kódot, akkor pedig a környezetkezelőben (conda) kell létrehozni egy új környezetet az alábbi parancssorozattal:
+
+```
+conda create -n ramp python=3.11
+conda activate ramp
+pip install robustbench
+```
+
+A környezet neve lehet tetszőleges, nem muszáj "ramp"-nek hívni, de akkor az .sh scriptekben ne felejtsük el átírni a környezet nevét (és esetleg helyét).
