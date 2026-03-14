@@ -10,6 +10,6 @@ Ez a segédkódbázis három részre bontható, amelyet a három feltöltött ma
 
 - ***Adatbazis_mappak***: Ide kell a letöltött képadatbázisokat behelyezni. Jelenleg cifar10 és cifar100 képadatbázisokat támogat csak a kód, ezeket kell ide behelyezni. Ezek nem kerülnek a repository-ba feltöltésre, mert nagy méretűek. Akár kézzel töltjük le, akár kóddal, az összes tanító és tesztelő kód amit használ ez a kódbázis ebben a mappában fogja keresni.
 
-- ***Kiertekelo_script***: Ebben a mappában található az összes kiértékelésre használt kód és script. Ha a hálók teljesítményét akarjuk lemérni, itt kell keresni.
+- ***Kiertekelo_script***: Ebben a mappában található az összes <ins>kiértékelésre</ins> használt kód és script. Ha a hálók teljesítményét akarjuk lemérni, itt kell keresni.
 
-- ***Vanilla_kodbazisok***: Ebben a mappában található az összes tanításra használt kód és script. A tanításokat minden esetben az ebben a mappában lévő scriptekkel kell elindítani.
+- ***Vanilla_kodbazisok***: Ebben a mappában található az összes <ins>tanításra</ins> használt kód és script. A tanításokat minden esetben az ebben a mappában lévő scriptekkel kell elindítani.
