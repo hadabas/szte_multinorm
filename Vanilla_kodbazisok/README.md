@@ -1,6 +1,8 @@
 # Vanilla_kodbazisok mappa
 
-Ebben a mappában a tanításhoz szükséges scriptek találhatóak. Attól függően, hogy milyen modellt szeretnénk tanítani, értelemszerűen a modell mappájában lévő scripteket kell használni. A következőekben részletezem mind a négy módszernél, hogyan kell egy tanítást elindítani. Néhány módszer nem támogatta a cifar100 adatbázison való tanulást, ezért azok ki lettek egészítve hogy kompatibilisek legyenek ezzel az adatbázissal is.
+Ebben a mappában a tanításhoz szükséges scriptek találhatóak. Attól függően, hogy milyen modellt szeretnénk tanítani, értelemszerűen a modell mappájában lévő scripteket kell használni. A következőekben részletezem mind a négy módszernél, hogyan kell egy tanítást elindítani.
+
+Néhány módszer nem támogatta a cifar100 adatbázison való tanulást, ezért azok ki lettek egészítve hogy kompatibilisek legyenek ezzel az adatbázissal is.
 
 ## **HAT** (Helper-based Adverserial Training):
 
