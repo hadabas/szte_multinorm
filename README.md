@@ -6,7 +6,7 @@ Ezt a kódbázist GPL licenszel töltöttem fel, tiszteletben tartva az eredeti 
 
 Ha belenyúltam a kódnak egy részébe az annak érdekében történt, hogy tanítási módszerük elérhető legyen más kép-adatbázison is, illetve a Szegedi Tudományegyetemen található belső rendszeren futtatható legyen a kód, akár tanításról, akár kiértékelésről legyen szó.
 
-Szeretném megjegyezni, hogy aki ezt a kódbázist bármiféleképpen módosítja vagy használja, ugyan úgy open-source licensszel kell közzétennie, a licenszfeltételeket tiszteletben tartva.
+Szeretném megjegyezni, hogy aki ezt a kódbázist bármiféleképpen módosítja vagy használja, ugyan úgy open-source licensszel kell közzétennie munkáját, a licenszfeltételeket tiszteletben tartva.
 
 Ez a segédkódbázis három részre bontható, amelyet a három feltöltött mappa reprezentál. Minden mappába ha belépünk, található egy extra Readme fájl, ami specifikusan elmagyaráz mindent, amiért a mappában található kódok és scriptek a felelősek. A három mappa:
 
