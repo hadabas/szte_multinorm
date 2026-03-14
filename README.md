@@ -2,7 +2,7 @@
 
 A Szegedi Tudományegyetemen folyó, több normával, illetve támadással szemben is robosztus modell(ek) kifejlesztéséhez használt segédkódbázis. Ezzel a kódbázissal több fajta normára/támadásra is robosztus modellek taníthatók és tesztelhetők, amelyek hasonlítási alapot adtak az általunk fejlesztett modell vizsgálatára, teljesítményének lemérésére, és az összehasonlításukra.
 
-Ezt a kódbázist MIT licenszel töltöttem fel, tiszteletben tartva az eredeti tanítási módszereket megalkotó szerzők akaratát, akik munkájukat teljesen open-source alapra helyezték, és elérhetővé tették mindenki számára. Minden egyes módszernél hagyok majd egy github linket az eredeti tanítási módszer repository-jához, ahol meg lehet tekinteni az eredeti munkájukat. Szeretném megjegyezni, hogy ezen kódbázis megalkotásánál a munkájukba nem nyúltam bele, a tanítási módszereik és eredményeik nincsenek alterálva semmilyen módon.
+Ezt a kódbázist GPL licenszel töltöttem fel, tiszteletben tartva az eredeti tanítási módszereket megalkotó szerzők akaratát, akik munkájukat teljesen open-source alapra helyezték, és elérhetővé tették mindenki számára. Minden egyes módszernél hagyok majd egy github linket az eredeti tanítási módszer repository-jához, ahol meg lehet tekinteni az eredeti munkájukat. Szeretném megjegyezni, hogy ezen kódbázis megalkotásánál a munkájukba nem nyúltam bele, a tanítási módszereik és eredményeik nincsenek alterálva semmilyen módon.
 
 Ha belenyúltam a kódnak egy részébe az annak érdekében történt, hogy tanítási módszerük elérhető legyen más kép-adatbázison is, illetve a Szegedi Tudományegyetemen található belső rendszeren futtatható legyen a kód, akár tanításról, akár kiértékelésről legyen szó.
 
