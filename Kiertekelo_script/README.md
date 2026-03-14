@@ -8,4 +8,4 @@ Attól függűen, hogy HAT, RAMP, SPGD vagy UNION modellt szeretnénk tesztelni,
 
 Ha a Szegedi Tudományegyetem clusterén szeretnénk futtatni a kiértékelést, hagytam futtatási mintát az **eval.sh** és az **eval_2.sh** fájlokban, hogy hogyan és milyen argumentumokkal kell elindítani a job-ot a kiértékeléshez.
 
-(Ha UNION modellt szeretnénk cifar10/cifar100-ra tesztelni, szükséges még az union_models mappában a PreactResnet18 architektúrát tartalmazó fájlban a num_class-t 10-re vagy 100-ra átírni, attól függően hogy cifar10 vagy cifar100-as modelleket szeretnénk tesztelni. A többi fajta modellnél ez nem szükséges, azok ezt kezelik.)
+(Ha UNION modellt szeretnénk cifar10/cifar100-ra tesztelni, szükséges még az union_models mappában a preact_resnet.py fájlban a num_classes-t 10-re vagy 100-ra kézzel átírni, attól függően hogy cifar10 vagy cifar100-as modelleket szeretnénk tesztelni. A többi fajta modellnél ez nem szükséges, azok ezt kezelik.)
